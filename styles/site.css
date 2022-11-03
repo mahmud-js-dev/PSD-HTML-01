@@ -72,3 +72,48 @@ header h3 {
 	font-size: 20px;
 	margin-bottom: 20px;
 }
+
+/* ------------- FEATURE SECTION -------------- */
+.feature {
+	background-color: #363636;
+}
+
+.feature-list {
+	list-style: none;
+	background: url('../images/feature-bg.jpg') top center no-repeat;
+	height: 300px;
+}
+
+.feature-list li {
+	width: 33.3333%;
+	height: 300px;
+	float: left;
+	border-left: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.feature-list li:last-child {
+	border-right: 1px solid white;
+}
+
+.feature-list li a {
+	text-decoration: none;
+}
+
+.feature-title {
+	color: white;
+	opacity: 0.5;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.feature-list li a:hover .feature-title {
+	opacity: 1;
+}
+
+
+
+
