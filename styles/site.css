@@ -115,5 +115,57 @@ header h3 {
 }
 
 
+/* -------- PORTFOLIO -------------- */
+.portfolio-samples {
+	background-color: #dadada;
+	padding: 5px 0 20px 0;
+	margin-top: 20px;
+}
+
+.portfolio-list {
+	list-style: none;
+}
+
+.portfolio-list li {
+	background-color: #555;
+	width: 210px;
+	height: 210px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+
+.portfolio-list li:last-child {
+	margin-right: 0;
+}
+
+.port-laptops { background: url('../images/laptops.jpg') center center no-repeat; }
+.port-acme { background: url('../images/acmelogo.gif') -200px -60px no-repeat; }
+.port-demoreel { background: url('../images/tablet.jpg') center center no-repeat; }
+.port-logo { background: url('../images/alogo.gif') center center no-repeat; }
+
+.portfolio-list li span {
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 0;
+	width: 210px;
+	height: 52px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 7px;
+}
+
+.portfolio-list a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	float: left;
+}
+
+.portfolio-list .sample-icon {
+	float: right;
+}
+
+
 
 
