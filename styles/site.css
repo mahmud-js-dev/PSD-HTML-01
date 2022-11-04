@@ -268,4 +268,29 @@ html[xmlns] .clearfix {
 	height: 1%;
 }
 
+@media (max-width: 899px) {
+	.container { padding: 0 10px; }
+	
+	.feature-list {
+		margin: 0 10px;
+		padding: 0;
+	}
+	
+	.portfolio-list {
+		width: 100%;
+	}
+	
+	.portfolio-list li {
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.portfolio-list li span {
+		width: 100%;
+	}
+}
+
+
+
 
