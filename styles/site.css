@@ -27,6 +27,7 @@ nav {
 	height: 40px;
 }
 
+.menu-icon { display: none; }
 .nav-list, .social-list {
 	list-style: none;
 }
